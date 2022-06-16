@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Tap</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="containerControls">
+		<div class="buttonPlay" onclick="start()"></div>
+		
+		<div class="containerTimer">
+			<div class="containerTimerValue">
+				<div class="timerValue left"></div>
+				<div class="timerValue right"></div>
+			</div>
+			
+			<div class="containerTimerLine">
+				<canvas id="canvasLineLeft" width="300" height="500"></canvas>
+    			<canvas id="canvasLineRight" width="300" height="500"></canvas>
+			</div>
+
+			<div class="containerTimerShadow">
+				<canvas id="canvasShadowLeft" width="300" height="500"></canvas>
+    			<canvas id="canvasShadowRight" width="300" height="500"></canvas>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="containerVideo">
+		<video>
+			Your browser does not support HTML video.
+		</video>
+	</div>
+
+</div>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
