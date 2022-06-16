@@ -1,5 +1,5 @@
 //Ссылки на видео в порядке очереди
-const videos = ["video/v1.mp4", "video/v2.mp4", "video/v3.mp4"];
+const videos = [];
 
 //Список еще непросмотренных видео 
 let currentVideos = videos.concat();
